@@ -15,10 +15,9 @@ public class MainActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main, menu);
+        boolean maru = true;
 
-//        boolean maru = true;
-//maruは無用の長物でした
-        return true;
+        return maru;
     }
 
 }
