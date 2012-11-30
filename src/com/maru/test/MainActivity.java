@@ -1,7 +1,7 @@
 package com.maru.test;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.app.Activity;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
@@ -15,9 +15,7 @@ public class MainActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main, menu);
-        boolean maru = true;
-
-        return maru;
+        return true;
     }
 
 }
